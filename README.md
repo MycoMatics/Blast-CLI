@@ -102,16 +102,30 @@ Databases on the other hand are installed **'localy**.
 
 ### DB location  
 
-A dedicated file is 
-  **Location**: /data/gent/vo/001/gvo00142/data_share_group/databases_blast/ncbi  
+A dedicated folder is available for our VO where we can 'locally' make pre installed databases available for us all. 
+If you need another database, please avoid installing it into your own account folder, it will take up a lot of space and others part of our VO cannot access.  
+
+  **Location**: /data/gent/vo/001/gvo00142/data_share_group/databases_blast/   
   **Configuration db**: Create a ncbirc file (see above for instructions) and save in your home folder (/user/gent/433/**yourvscnumber**)  
   
   **Alternative**: add this line to your .bashrc file:  
     
 ```bash
-export BLASTDB=/data/gent/vo/001/gvo00142/data_share_group/databases_blast/db
+export BLASTDB=/data/gent/vo/001/gvo00142/data_share_group/databases_blast/
 ``` 
 
 ### Updates  
 
-### Usage
+Instllation dates are always part of the folder where you can find the databasefiles, if you feel it is not up to date, give a shout out to Pieter.
+When you need another type of db wchich you frequently use and others might benefit from, ask for a local installation.  
+
+### Usage  
+
+  1. Make sure your env value for $BLASTDB is set correctly.  
+```console
+vsc43352@node3206:~$echo $BLASTDB                                                    
+/data/gent/vo/001/gvo00142/data_share_group/databases_blast/db
+```
+  2. Use **ml spider blast** to list the installed blast modules
+  3. Use the latest module installed in your jobscript
+  4. run blast following the blast module (for instpiration look to section **Quick run** above)
