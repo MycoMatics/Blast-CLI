@@ -93,5 +93,3 @@ blastn -db nt \
   -outfmt ""6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sskingdoms qcovs" \
   -num_trheads $(THREADS)
 ```
-## Output tab format  
-
