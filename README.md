@@ -54,18 +54,28 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
       and all of them are needed to reconstitute the database.
   3. After extraction, there is no need to concatenate the resulting files:
       Call the database with the base name, for nr database files, use "-db nr".
-     **NOTE**:For easy download, use the update_blastdb.pl script from the blast+ package.
+
+**NOTE**:For easy download, use the update_blastdb.pl script from the blast+ package.
      Run following command in your db folder:
 ```bash
-perl undate_blastdb.pl --decompress nt
+perl update_blastdb.pl --decompress nt # or any other prefix for you db of coice
 ```
 
 #### Build  
 
 If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/] for more details.  
 
-### Configuration blast (set env)
-https://www.ncbi.nlm.nih.gov/books/NBK569858/
+### Configuration blast (set env)  
+
+More detailed info on configurateion can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK569858/)  
+
+  1. Make a configuration file named .ncbirc (on Unix-like platforms) or ncbi.ini (on Windows) in your home directory
+´´´bash
+touch ~/.ncbirc &&
+echo [BLAST] >> ~/.ncbirc
+echo [BLASTDB]=/path/to/databases >> ~/.ncbirc
+```
+
 
 ## Run blast on command line  
 
