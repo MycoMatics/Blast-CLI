@@ -55,10 +55,11 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
      **NOTE**:For easy download, use the update_blastdb.pl script from the blast+ package.
      Run following command in your db folder:
 ```bash
-perp undate_blastdb.pl --decompress nt
+perl undate_blastdb.pl --decompress nt
 ```
 
 ### Build Database  
+If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/] for more details.  
 
 ### Configuration blast (set env)
 https://www.ncbi.nlm.nih.gov/books/NBK569858/
