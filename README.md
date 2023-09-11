@@ -35,7 +35,9 @@ You can [download the Blast+ executables](https://ftp.ncbi.nlm.nih.gov/blast/exe
 ```bash
 tar xvf yourfile.tar.gz
 ```
-  3. 
+**NOTE**: It is always good pracktice to install bioinformatic software (if from source) to a designated **bioinfo** folder i.e. **/usr/local/bionfo**.  
+          From here you can create a symlink to a folder in your $PATH f.i. /usr/local/bin
+          
 ### Database installation
 ## Build Database  
 
