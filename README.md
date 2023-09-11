@@ -67,28 +67,31 @@ If you want to build your own database based on fasta sequences take a look [her
 
 Make a configuration file named .ncbirc (on Unix-like platforms) or ncbi.ini (on Windows) in your home directory  
 
-´´´bash
+```bash  
 touch ~/.ncbirc &&
 echo [BLAST] >> ~/.ncbirc
 echo [BLASTDB]=/path/to/databases >> ~/.ncbirc
 ```
-
+  
 More available parameters can be set in the config file.
 More detailed info on configurateion can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK569858/) 
 
 ## Run blast on command line  
 
 ### Quick run
+
 ```bash
 blastn –db nt –query nt.fsa –out results.out
 ```
 
-### Personalized  
+### Personalized outputformat
 
 ```bash
-blastn -db nt \  
+blastn -db nt \
   -query /path/to/fastafiles \
-  -out /path/to/output/out -outfmt ""6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sskingdoms qcovs" \    -num_trheads $(THREADS)
+  -out /path/to/output/out \
+  -outfmt ""6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sskingdoms qcovs" \
+  -num_trheads $(THREADS)
 ```
 ## Output tab format  
 
