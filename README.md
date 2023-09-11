@@ -39,14 +39,12 @@ tar xzvf yourfile.tar.gz
 **NOTE**: It is always good pracktice to install bioinformatic software (if installed from source) to a designated **bioinfo** folder i.e. **/usr/local/bionfo**.  
           From here you can create a symlink to a folder in your $PATH f.i. /usr/local/bin
           
-### Database  
+### Database Download
 
 BLAST databases are updated daily and may be downloaded via [FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/).
 Database sets may be retrieved automatically with update_blastdb.pl, which is part of the BLAST+ suite. (run this command in working directory, probably best in same directory at your $PATH of the database.)
 
 Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) for more details.
-
-#### Download  
 
   1. Pre-fromatted BLAST db are archived [here](https://ftp.ncbi.nlm.nih.gov/blast/db/)
   2. Get all numbered files for a database with the same base name:
@@ -61,7 +59,7 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
 perl update_blastdb.pl --decompress nt # or any other prefix for you db of coice
 ```
 
-#### Build  
+### Database Build  
 
 If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/] for more details.  
 
