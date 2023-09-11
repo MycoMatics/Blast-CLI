@@ -94,9 +94,12 @@ blastn -db nt \
   -num_trheads $(THREADS)
 ```
 
-## HPC @ UGent setup  
+## Setup Blast @ HPC-UGent  
 
-Blast modules are available on the HPC. Before running a blast analysis please set your env by creating a .ncbirc configuration file (see above) and copy it to your home directory. If that doesn't work, create a permanent environmental variable in your bashrc file.
+Blast modules are available on the HPC. Databases are installed **'localy**.  
+Before running a blast analysis please set your env by creating a .ncbirc configuration file (see above) and copy it to your home directory. If that doesn't work, create a permanent environmental variable in your bashrc file. If that doesnt work, set up a etc/environment file for all the users.  
+
+
 ### DB location  
 
 ### Updates  
