@@ -22,7 +22,7 @@ Check out the [NCBI-blast page](https://blast.ncbi.nlm.nih.gov/Blast.cgi) for mo
 
 ## Installation  
 
-[Download section](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html)  
+[Download section](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html) @ NCBI website.
 
 ### Software installation  
 
