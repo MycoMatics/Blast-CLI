@@ -1,6 +1,7 @@
-# Blast-CLI
+# Blast-CLI  
 
-## Intro
+## Intro  
+
 The BLAST algorithm, which stands for **B**asic **L**ocal **A**lignment **S**earch **T**ool, is a widely used and highly effective algorithm in bioinformatics and computational biology. It is used to compare biological sequences, such as DNA, RNA, or protein sequences, to identify regions of similarity or homology.  
 The primary goal of the BLAST algorithm is to find local alignments between a query sequence and a database of sequences, which can help researchers identify genes, functional domains, and evolutionary relationships between sequences.
 
@@ -17,7 +18,15 @@ BLAST is highly configurable, allowing users to adjust parameters such as the sc
 
 Overall, BLAST is an essential tool for sequence comparison and is widely used in genomics, proteomics, and other areas of biological research. It enables researchers to quickly and effectively identify similarities between sequences and gain insights into the functional and evolutionary relationships of biological molecules.  
 
-## Installation
-## Build Database
-## Run blast on command line
-## Output tab format
+Check out the [NCBI-blast page](https://blast.ncbi.nlm.nih.gov/Blast.cgi) for more information (and online applications)
+
+## Installation  
+
+Running blast form the [webinterface](https://blast.ncbi.nlm.nih.gov/Blast.cgi) hat it's limitations. If you want to include your blast analysis in your own pipelines Blast+ is the way to go. You can [download the Blast+ executables](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and install them on your machine.  
+
+## Build Database  
+
+## Run blast on command line  
+
+## Output tab format  
+
