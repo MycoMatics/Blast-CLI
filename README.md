@@ -65,7 +65,8 @@ If you want to build your own database based on fasta sequences take a look [her
 
 ### Configuration blast (set env)  
 
-Make a configuration file named .ncbirc (on Unix-like platforms) or ncbi.ini (on Windows) in your home directory
+Make a configuration file named .ncbirc (on Unix-like platforms) or ncbi.ini (on Windows) in your home directory  
+
 ´´´bash
 touch ~/.ncbirc &&
 echo [BLAST] >> ~/.ncbirc
