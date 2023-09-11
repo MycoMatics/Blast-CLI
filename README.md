@@ -28,7 +28,7 @@ Check out the [NCBI-blast page](https://blast.ncbi.nlm.nih.gov/Blast.cgi) for mo
 
 Running blast form the [webinterface](https://blast.ncbi.nlm.nih.gov/Blast.cgi) has it's limitations.  
 If you want to include your blast analysis in your own pipelines, Blast+ is the way to go.  
-You can [download the Blast+ executables](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and install them on your machine.  
+You can [download the Blast+ executables](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and install them on your own machine.  
 
   1. [Download the latest executable](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
   2. Unpack the download file:  
