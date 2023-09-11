@@ -96,18 +96,20 @@ blastn -db nt \
 
 ## Setup Blast @ HPC-UGent  
 
-Blast modules are available on the HPC. Databases are installed **'localy**.  
+Blast modules are available on the HPC. 
+Databases on the other hand are installed **'localy**.  
 **ALERT!**: don't install databases locally, they take up a lot of space. Please contact Pieter if you need a database which is not installed yet.
 
 ### DB location  
 
+A dedicated file is 
   **Location**: /data/gent/vo/001/gvo00142/data_share_group/databases_blast/ncbi  
   **Configuration db**: Create a ncbirc file (see above for instructions) and save in your home folder (/user/gent/433/**yourvscnumber**)  
   
   **Alternative**: add this line to your .bashrc file:  
     
 ```bash
-export BLASTDB=/data/gent/vo/001/gvo00142/data_share_group/databases_blast/nt_20221006
+export BLASTDB=/data/gent/vo/001/gvo00142/data_share_group/databases_blast/db
 ``` 
 
 ### Updates  
