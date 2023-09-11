@@ -59,7 +59,7 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
 perl update_blastdb.pl --decompress nt # or any other prefix for you db of coice
 ```
 
-### Database Build  
+### Build Local DB (DYI)  
 
 If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/] for more details.  
 
