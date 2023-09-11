@@ -38,13 +38,22 @@ tar xzvf yourfile.tar.gz
 **NOTE**: It is always good pracktice to install bioinformatic software (if installed from source) to a designated **bioinfo** folder i.e. **/usr/local/bionfo**.  
           From here you can create a symlink to a folder in your $PATH f.i. /usr/local/bin
           
-### Database installation
+### Database  
+
 BLAST databases are updated daily and may be downloaded via [FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/).
-Database sets may be retrieved automatically with update_blastdb.pl, which is part of the BLAST+ suite.
+Database sets may be retrieved automatically with update_blastdb.pl, which is part of the BLAST+ suite. (run this command in working directory, probably best in same directory at your $PATH of the database.)
 
 Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) for more details.
 
-## Build Database  
+### Download
+  1. Pre-fromatted BLAST db are archived [here](https://ftp.ncbi.nlm.nih.gov/blast/db/)
+  2. Download each numbered file with the same base name (f.i. nt.001.tar.gz)
+  3. Unpack in 
+
+### Build Database  
+
+### Configuration blast (set env)
+https://www.ncbi.nlm.nih.gov/books/NBK569858/
 
 ## Run blast on command line  
 
