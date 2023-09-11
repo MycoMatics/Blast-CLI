@@ -21,7 +21,7 @@ Overall, BLAST is an essential tool for sequence comparison and is widely used i
 
 Check out the [NCBI-blast page](https://blast.ncbi.nlm.nih.gov/Blast.cgi) for more information (and online applications)
 
-## Installation  
+## Get Blast ready on your local system
 
 For more info take a look at the [Download section](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html) @ NCBI website.
 
