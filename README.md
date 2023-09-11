@@ -88,9 +88,8 @@ blastn –db nt –query nt.fsa –out results.out
 
 ```bash
 blastn -db nt \  
-  -query /path/to/fastafiles \  
-  -out /path/to/output/out -outfmt ""6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sskingdoms qcovs" \
-  -num_trheads $(THREADS)
+  -query /path/to/fastafiles \
+  -out /path/to/output/out -outfmt ""6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sskingdoms qcovs" \    -num_trheads $(THREADS)
 ```
 ## Output tab format  
 
