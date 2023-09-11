@@ -39,6 +39,11 @@ tar xvf yourfile.tar.gz
           From here you can create a symlink to a folder in your $PATH f.i. /usr/local/bin
           
 ### Database installation
+BLAST databases are updated daily and may be downloaded via [FTP](https://ftp.ncbi.nlm.nih.gov/blast/db/).
+Database sets may be retrieved automatically with update_blastdb.pl, which is part of the BLAST+ suite.
+
+Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) for more details.
+
 ## Build Database  
 
 ## Run blast on command line  
