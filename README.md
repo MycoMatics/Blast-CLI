@@ -46,7 +46,8 @@ Database sets may be retrieved automatically with update_blastdb.pl, which is pa
 
 Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) for more details.
 
-### Download
+#### Download  
+
   1. Pre-fromatted BLAST db are archived [here](https://ftp.ncbi.nlm.nih.gov/blast/db/)
   2. Get all numbered files for a database with the same base name:
       Each of these files represents a subset (volume) of that database,
@@ -59,7 +60,8 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
 perl undate_blastdb.pl --decompress nt
 ```
 
-### Build Database  
+#### Build  
+
 If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/] for more details.  
 
 ### Configuration blast (set env)
