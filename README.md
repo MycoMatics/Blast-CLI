@@ -33,7 +33,7 @@ You can [download the Blast+ executables](https://ftp.ncbi.nlm.nih.gov/blast/exe
   1. [Download the latest executable](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
   2. Unpack the download file:  
 ```bash
-tar xvf yourfile.tar.gz
+tar xzvf yourfile.tar.gz
 ```
 **NOTE**: It is always good pracktice to install bioinformatic software (if installed from source) to a designated **bioinfo** folder i.e. **/usr/local/bionfo**.  
           From here you can create a symlink to a folder in your $PATH f.i. /usr/local/bin
