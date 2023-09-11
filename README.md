@@ -93,3 +93,12 @@ blastn -db nt \
   -outfmt ""6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames sskingdoms qcovs" \
   -num_trheads $(THREADS)
 ```
+
+## HPC @ UGent setup  
+
+Blast modules are available on the HPC. Before running a blast analysis please set your env by creating a .ncbirc configuration file (see above) and copy it to your home directory. If that doesn't work, create a permanent environmental variable in your bashrc file.
+### DB location  
+
+### Updates  
+
+### Usage
