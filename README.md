@@ -3,7 +3,8 @@
 ## Intro  
 
 The BLAST algorithm, which stands for **B**asic **L**ocal **A**lignment **S**earch **T**ool, is a widely used and highly effective algorithm in bioinformatics and computational biology. It is used to compare biological sequences, such as DNA, RNA, or protein sequences, to identify regions of similarity or homology.  
-The primary goal of the BLAST algorithm is to find local alignments between a query sequence and a database of sequences, which can help researchers identify genes, functional domains, and evolutionary relationships between sequences.
+The primary goal of the BLAST algorithm is to find local alignments between a query sequence and a database of sequences, which can help researchers identify genes, functional domains, and evolutionary relationships between sequences. Blast can be run at the [NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi).
+Or a **C**ommand **L**ine **I**nterface can be downloaded to your own system.
 
 Here are the key components and steps of the BLAST algorithm:
   1. **Query Sequence**: BLAST starts with a query sequence provided by the user, which is the sequence you want to compare against a database of other sequences.
