@@ -47,8 +47,16 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
 
 ### Download
   1. Pre-fromatted BLAST db are archived [here](https://ftp.ncbi.nlm.nih.gov/blast/db/)
-  2. Download each numbered file with the same base name (f.i. nt.001.tar.gz)
-  3. Unpack in 
+  2. Get all numbered files for a database with the same base name:
+      Each of these files represents a subset (volume) of that database,
+      and all of them are needed to reconstitute the database.
+  3. After extraction, there is no need to concatenate the resulting files:
+      Call the database with the base name, for nr database files, use "-db nr".
+     **NOTE**:For easy download, use the update_blastdb.pl script from the blast+ package.
+     Run following command in your db folder:
+```bash
+perp undate_blastdb.pl --decompress nt
+```
 
 ### Build Database  
 
