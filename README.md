@@ -58,10 +58,16 @@ Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/
 ```bash
 perl update_blastdb.pl --decompress nt # or any other prefix for you db of coice
 ```
+**NOTE**:if the ncbi server runs slow, the update command could rise connection issues.
+  Sometimes it is easier to download manually from the [ftp db website](https://ftp.ncbi.nlm.nih.gov/blast/db/):
+```bash
+wget https://ftp.ncbi.nlm.nih.gov/blast/db/nt.???.tar.gz
+wget https://ftp.ncbi.nlm.nih.gov/blast/db/nt.???.tar.gz.md5
+```
 
 ### Build Local DB (DYI)  
 
-If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/] for more details.  
+If you want to build your own database based on fasta sequences take a look [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/) for more details.  
 
 ### Configuration blast (set env)  
 
