@@ -134,7 +134,7 @@ When you need another type of db wchich you frequently use and others might bene
   1. Make sure your env value for $BLASTDB is set correctly.  
 ```console
 vsc43352@node3206:~$echo $BLASTDB                                                    
-/data/gent/vo/001/gvo00142/data_share_group/databases_blast/db
+/data/gent/vo/001/gvo00142/data_share_group/databases_blast/
 ```
   2. Use **ml spider blast** to list the installed blast modules
   3. Use the latest module installed in your jobscript
