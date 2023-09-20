@@ -47,11 +47,15 @@ Database sets may be retrieved automatically with update_blastdb.pl, which is pa
 Please refer to the [BLAST database documentation](https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) for more details.
 
   1. Pre-fromatted BLAST db are archived [here](https://ftp.ncbi.nlm.nih.gov/blast/db/)
-  2. Get all numbered files for a database with the same base name:
+  2. Download all numbered files for your database of choice using the basename (eg nt.000.tar.gz => "nt"):
       Each of these files represents a subset (volume) of that database,
       and all of them are needed to reconstitute the database.
-  3. After extraction, there is no need to concatenate the resulting files:
-      Call the database with the base name, for nr database files, use "-db nr".
+  3. Extract:
+```bash
+for file in *.gz; do tar -xzvf "$file"; done
+```
+  5. After extraction, there is no need to concatenate the resulting files:
+      Call the database with the base name, for nr database files, use "-db nt".
 
 **NOTE**:For easy download, use the update_blastdb.pl script from the blast+ package.
      Run following command in your db folder:
