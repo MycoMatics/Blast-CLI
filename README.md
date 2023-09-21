@@ -138,5 +138,5 @@ vsc43352@node3206:~$echo $BLASTDB
 ```
   2. Use **ml spider blast** to list the installed blast modules
   3. Use the latest module installed in your jobscript
-  4. run blast following the blast module (for instpiration look to section [Quick run](#Quick run) above)
+  4. run blast following the blast module (for instpiration look to section [Quick run](#Quick-run) above)
      or [RTFM](https://www.ncbi.nlm.nih.gov/books/NBK279690/).
